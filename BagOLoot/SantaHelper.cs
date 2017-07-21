@@ -45,12 +45,12 @@ namespace BagOLoot
                 _connection.Close ();
             }
 
-            return 45;
+            return _lastId;
         }
 
-        public List<int> GetChildsToys(int childId)
+        public List<string> GetChildsToys(int childId)
         {
-            return new List<int>();
+            return new List<string>();
         }
     }
 }

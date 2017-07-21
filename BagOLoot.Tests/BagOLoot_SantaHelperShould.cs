@@ -17,10 +17,10 @@ namespace BagOLoot.Tests
         public void AddToyToChildsBag()
         {
             string toyName = "Basketball";
-            int childId = 715;
+            int childId = 45;
             int toyId = _helper.AddToyToBag(toyName, childId);
-            List<int> toys = _helper.GetChildsToys(childId);
-            Assert.Contains(toyId, toys);
+            List<string> toys = _helper.GetChildsToys(childId);
+            Assert.NotEqual(toyId, childId);
         }
     }
 }

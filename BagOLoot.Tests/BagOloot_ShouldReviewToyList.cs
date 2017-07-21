@@ -16,7 +16,7 @@ namespace BagOLoot.Tests
         {
             var result = _review.GetChildsToyList();
             
-            Assert.IsType<Dictionary<string, int>>(result);
+            Assert.IsType<Dictionary<int, string>>(result);
         }
     }
 }
