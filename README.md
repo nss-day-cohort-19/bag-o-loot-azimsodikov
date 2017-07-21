@@ -17,3 +17,6 @@ source ~/.zshrc
 ```
 
 Now open up the project in Visual Studio code.
+
+ERD for BagOloot
+![Caption for the picture.](img/erd.png)
